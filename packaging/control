@@ -1,0 +1,8 @@
+Package: com.muyu.clashlegacy
+Name: MuyuClash Legacy
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Muyu
+Section: Networking
+Depends: firmware (>= 6.0)
+Description: Native on-device proxy client for legacy iOS

@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "status": "not-accepted",
+  "target": {
+    "platform": "iOS",
+    "minimumVersion": "6.0",
+    "architecture": "armv7",
+    "jailbreak": "rootful",
+    "device": "iPod touch 4",
+    "testedVersion": "6.1.6",
+    "memoryMB": 256
+  },
+  "checks": {
+    "install-start": {
+      "result": "partial",
+      "evidence": null
+    },
+    "real-protocol-connections": {
+      "result": "not-run",
+      "evidence": null
+    },
+    "subscription-rules-groups": {
+      "result": "not-run",
+      "evidence": null
+    },
+    "dns-tcp-udp-ipv4-ipv6-coverage": {
+      "result": "pass",
+      "evidence": ".build/ios/device-capture-result.json"
+    },
+    "background-after-ui-exit": {
+      "result": "not-run",
+      "evidence": null
+    },
+    "core-crash-network-recovery": {
+      "result": "pass",
+      "evidence": ".build/ios/device-capture-lifecycle-core-supervisor-result.json"
+    },
+    "uninstall-cleanup": {
+      "result": "not-run",
+      "evidence": null
+    }
+  }
+}

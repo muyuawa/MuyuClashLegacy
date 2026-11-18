@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "project": "MetaCubeX/meta-rules-dat",
+  "license": "GPL-3.0",
+  "files": {
+    "Country.mmdb": {
+      "sha256": "dabff40e7e8e472868341968ce6567d7d6bd9e3090d5a4bef77900f40ea438dc",
+      "size": 8412142,
+      "source": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.metadb",
+      "assetID": 761776686,
+      "updatedAt": "2026-11-18T03:47:49Z"
+    },
+    "GeoIP.dat": {
+      "sha256": "304ac8a1cbcc8166e4f5a4f32955e4d0fb77a1bd713583e371b30ee27f3659d8",
+      "size": 16467275,
+      "source": "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat",
+      "assetID": 761776649,
+      "updatedAt": "2026-11-18T03:47:48Z"
+    }
+  }
+}

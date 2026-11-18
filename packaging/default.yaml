@@ -1,0 +1,6 @@
+# Factory configuration for import. The supervisor does not activate it on install.
+mode: rule
+proxies: []
+proxy-groups: []
+rules:
+  - MATCH,DIRECT

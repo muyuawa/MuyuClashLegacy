@@ -1,0 +1,9 @@
+Copyright (c) 2013 - 2026 MaxMind, Inc.
+
+Official test databases and source-data JSON are from:
+https://github.com/maxmind/MaxMind-DB/tree/dc32db5525f9c42ab7006ab3f13c69330b814dd1
+
+The upstream README permits Apache License, Version 2.0 or MIT, at your option.
+This project selects MIT for the four fixture files. Both original license
+texts are included. These are synthetic test databases, not production GeoLite
+databases, and are not installed on the target device.

@@ -1,0 +1,46 @@
+{
+  "format": 1,
+  "purpose": "Independent protocol servers used by host interoperability tests; not linked or shipped in the client",
+  "dependencies": [
+    {
+      "name": "tuic",
+      "version": "1.0.0",
+      "platform": "darwin-amd64",
+      "url": "https://github.com/tuic-protocol/tuic/releases/download/tuic-server-1.0.0/tuic-server-1.0.0-x86_64-apple-darwin",
+      "archive": "tuic-server-1.0.0-x86_64-apple-darwin",
+      "sha256": "2031a3ae3c76d64ed63b803f4f3ff34536d4ecfdf3b0e190acb518657819f5fe",
+      "license": "GPL-3.0",
+      "source": "https://github.com/tuic-protocol/tuic/tree/tuic-server-1.0.0"
+    },
+    {
+      "name": "anytls",
+      "version": "v0.0.13",
+      "platform": "darwin-amd64",
+      "url": "https://github.com/anytls/anytls-go/releases/download/v0.0.13/anytls_0.0.13_darwin_amd64.zip",
+      "archive": "anytls_0.0.13_darwin_amd64.zip",
+      "sha256": "571d18da014f2db1febb9d2bce84f311c0af1cbf4b44f4613825c66d9b652494",
+      "license": "MIT",
+      "source": "https://github.com/anytls/anytls-go/tree/v0.0.13"
+    },
+    {
+      "name": "hysteria",
+      "version": "app/v2.14.0",
+      "platform": "darwin-amd64",
+      "url": "https://github.com/HyNetworks/hysteria/releases/download/app/v2.14.0/hysteria-darwin-amd64",
+      "archive": "hysteria-v2.14.0-darwin-amd64",
+      "sha256": "37a3ef3649b5a8fd24799b285d413b1d38afa71e2c4c1d564efe3c3b65880efe",
+      "license": "MIT",
+      "source": "https://github.com/HyNetworks/hysteria/tree/app/v2.14.0"
+    },
+    {
+      "name": "xray",
+      "version": "v26.11.9",
+      "platform": "darwin-amd64",
+      "url": "https://github.com/XTLS/Xray-core/releases/download/v26.11.9/Xray-macos-64.zip",
+      "archive": "Xray-v26.11.9-macos-64.zip",
+      "sha256": "488963e676e06f5e48547f9dd38116aaca8de4234959b4272ae8f284e658dfd0",
+      "license": "MPL-2.0",
+      "source": "https://github.com/XTLS/Xray-core/tree/v26.11.9"
+    }
+  ]
+}

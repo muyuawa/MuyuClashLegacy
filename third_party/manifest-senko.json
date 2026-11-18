@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "purpose": "Isolated native ARMv7 compile candidate; no registered protocol capability",
+  "target": "armv7-apple-ios6.0",
+  "dependencies": [
+    {
+      "name": "sfparse",
+      "version": "nghttp3-1.19.0-gitlink",
+      "revision": "4b313cfd2e1b389ae632b36dcd50402307289af2",
+      "url": "https://codeload.github.com/ngtcp2/sfparse/tar.gz/4b313cfd2e1b389ae632b36dcd50402307289af2",
+      "archive": "sfparse-4b313cfd2e1b389ae632b36dcd50402307289af2.tar.gz",
+      "sha256": "cc8256a65a03577654941839e100b3d61fe7f7d69f2a08f9b2f17a123b580b4c",
+      "license": "MIT",
+      "license_file": "COPYING"
+    },
+    {
+      "name": "senko",
+      "version": "4.3.0-stable",
+      "revision": "b9f7e6ab9c369f9acf753b00b49143269ed15ca8",
+      "url": "https://codeload.github.com/sqmrak/senko/tar.gz/b9f7e6ab9c369f9acf753b00b49143269ed15ca8",
+      "archive": "senko-b9f7e6ab9c369f9acf753b00b49143269ed15ca8.tar.gz",
+      "sha256": "b7fc282ffd427fc480ed183a06b3606a681da84c65de9ee507f47e2fa1b0994a",
+      "license": "GPL-2.0-or-later",
+      "license_file": "LICENSE",
+      "bundled_code": "cJSON MIT; lwIP BSD-3-Clause; PQClean ML-KEM-768 notices retained in source"
+    },
+    {
+      "name": "openssl",
+      "version": "3.5.9",
+      "revision": "45e844fa2a14ec92d146bd8f5778ac130b6625fb",
+      "url": "https://codeload.github.com/openssl/openssl/tar.gz/45e844fa2a14ec92d146bd8f5778ac130b6625fb",
+      "archive": "openssl-openssl-3.5.9.tar.gz",
+      "sha256": "f54250b21795bb01240f3f9b42c384868d04460e339e39275aaaf93487f2d903",
+      "license": "Apache-2.0",
+      "license_file": "LICENSE.txt"
+    },
+    {
+      "name": "ngtcp2",
+      "version": "1.26.0",
+      "revision": "6a22a4d7a111f6b52391910e40ad3681a09cfb9c",
+      "url": "https://codeload.github.com/ngtcp2/ngtcp2/tar.gz/6a22a4d7a111f6b52391910e40ad3681a09cfb9c",
+      "archive": "ngtcp2-v1.26.0.tar.gz",
+      "sha256": "1c8ee9b7261a2d0c906949fb9a8119615bd920a50d12c59106310b9d1245a821",
+      "license": "MIT",
+      "license_file": "COPYING"
+    },
+    {
+      "name": "nghttp3",
+      "version": "1.19.0",
+      "revision": "dc83309ca5fd2beb91cc5c030a2d30525e9f2a00",
+      "url": "https://codeload.github.com/ngtcp2/nghttp3/tar.gz/dc83309ca5fd2beb91cc5c030a2d30525e9f2a00",
+      "archive": "nghttp3-v1.19.0.tar.gz",
+      "sha256": "50becbabdc40312fbe1096d74d83748f0e81883f5274fa8cfe5230fbb2220b1c",
+      "license": "MIT",
+      "license_file": "COPYING"
+    }
+  ]
+}

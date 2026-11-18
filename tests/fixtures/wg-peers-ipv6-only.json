@@ -1,0 +1,24 @@
+{
+  "name": "WG IPv6-only fixture",
+  "type": "wireguard",
+  "ipv6": "fd66::2",
+  "private-key": "ICEiIyQlJicoKSorLC0uLzAxMjM0NTY3ODk6Ozw9Pj8=",
+  "udp": true,
+  "mtu": 1280,
+  "dns": [
+    "fd66::1"
+  ],
+  "remote-dns-resolve": true,
+  "peers": [
+    {
+      "server": "2001:db8::10",
+      "port": 51820,
+      "public-key": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+      "preshared-key": "QEFCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaW1xdXl8=",
+      "allowed-ips": [
+        "::/0"
+      ],
+      "persistent-keepalive": 25
+    }
+  ]
+}

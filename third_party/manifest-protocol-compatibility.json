@@ -1,0 +1,20 @@
+{
+  "format": 1,
+  "purpose": "Source evidence for Hy2 compatibility metadata; not linked or shipped",
+  "baseline": "Mihomo v1.19.34",
+  "commit": "0455d0d28c4526937380505153e65a843d8612e8",
+  "dependencies": [
+    {
+      "path": "adapter/outbound/hysteria2.go",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/mihomo/0455d0d28c4526937380505153e65a843d8612e8/adapter/outbound/hysteria2.go",
+      "sha256": "cc75903a8a0b8e8c892b886a788bea2ab86fc375b8028c8e1e7ce9818267756b",
+      "license": "GPL-3.0"
+    },
+    {
+      "path": "adapter/outbound/base.go",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/mihomo/0455d0d28c4526937380505153e65a843d8612e8/adapter/outbound/base.go",
+      "sha256": "3fa3ca60847a87c524e300e182ef54d8bd8a8e0c949ff0aae784412704604bb0",
+      "license": "GPL-3.0"
+    }
+  ]
+}

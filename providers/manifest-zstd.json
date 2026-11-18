@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "name": "zstd",
+  "version": "1.5.7",
+  "url": "https://codeload.github.com/facebook/zstd/tar.gz/refs/tags/v1.5.7",
+  "sha256": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3",
+  "license": "BSD-3-Clause OR GPL-2.0",
+  "selectedLicense": "BSD-3-Clause",
+  "note": "Only the native bounded streaming decompressor is linked for MRSv1 providers."
+}

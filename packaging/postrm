@@ -1,0 +1,16 @@
+case "${1:-}" in
+    remove) refresh_icons ;;
+    purge)
+        read_job
+        [ "$job_seen" = no ] || fail "Refusing to purge while the supervisor is registered"
+        clean_runtime
+        if [ -e "$geo_dir" ] || [ -L "$geo_dir" ]; then
+            safe_directory "$geo_parent" && safe_directory "$geo_dir" || fail "Unsafe Geo cache path $geo_dir"
+            rm -rf -- "$geo_dir"
+        fi
+        if [ -e "$state_dir" ] || [ -L "$state_dir" ]; then
+            safe_directory "$state_parent" && safe_directory "$state_dir" || fail "Unsafe state path $state_dir"
+            rm -rf -- "$state_dir"
+        fi
+        ;;
+esac

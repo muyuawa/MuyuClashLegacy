@@ -1,0 +1,38 @@
+{
+  "commit": "dc32db5525f9c42ab7006ab3f13c69330b814dd1",
+  "files": [
+    {
+      "file": "GeoIP2-Country-Test.mmdb",
+      "url": "https://raw.githubusercontent.com/maxmind/MaxMind-DB/dc32db5525f9c42ab7006ab3f13c69330b814dd1/test-data/GeoIP2-Country-Test.mmdb",
+      "sha256": "b37601903448683d241af52893c8cbf0fed461e0cdebe0bfaca01891fdeb6db9"
+    },
+    {
+      "file": "GeoIP2-Country-Test.json",
+      "url": "https://raw.githubusercontent.com/maxmind/MaxMind-DB/dc32db5525f9c42ab7006ab3f13c69330b814dd1/source-data/GeoIP2-Country-Test.json",
+      "sha256": "f38b8210de709ddbb8dae1a8eb41e356ac2a52f20e634d0ae5196b25a3e7ab59"
+    },
+    {
+      "file": "GeoLite2-ASN-Test.mmdb",
+      "url": "https://raw.githubusercontent.com/maxmind/MaxMind-DB/dc32db5525f9c42ab7006ab3f13c69330b814dd1/test-data/GeoLite2-ASN-Test.mmdb",
+      "sha256": "75901b98ed6e58d3bd41af9985044b747a7ec0be1369f930c24f5e044427181a"
+    },
+    {
+      "file": "GeoLite2-ASN-Test.json",
+      "url": "https://raw.githubusercontent.com/maxmind/MaxMind-DB/dc32db5525f9c42ab7006ab3f13c69330b814dd1/source-data/GeoLite2-ASN-Test.json",
+      "sha256": "fcfce51301987c778847540ad59ac8a20eb9c50ea5c8d693aecb2d223dad0005"
+    }
+  ],
+  "license": "Apache-2.0 OR MIT",
+  "selectedLicense": "MIT",
+  "copyright": "Copyright (c) 2013 - 2026 MaxMind, Inc.",
+  "licenseFiles": [
+    {
+      "path": "third_party/licenses/MaxMind-DB-MIT.txt",
+      "sha256": "91276db973f25602d1aa43491f59cbc84cb88e6f151e1d0cc82a755563ce0195"
+    },
+    {
+      "path": "third_party/licenses/MaxMind-DB-Apache-2.0.txt",
+      "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+    }
+  ]
+}

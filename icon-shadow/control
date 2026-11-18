@@ -1,0 +1,8 @@
+Package: com.muyu.clashlegacy.icon-no-shadow
+Name: MuyuClash Icon No Shadow (Beta)
+Version: 0.1.0~beta.1
+Architecture: iphoneos-arm
+Maintainer: Muyu
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.1.6), firmware (<< 6.1.7), com.muyu.clashlegacy
+Description: Experimental iOS 6.1.6 shadow removal for the MuyuClash icon only

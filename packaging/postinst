@@ -1,0 +1,6 @@
+case "${1:-}" in
+    configure|abort-upgrade|abort-remove|abort-deconfigure)
+        start_job
+        refresh_icons
+        ;;
+esac

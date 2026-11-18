@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+task_root="$(cd "$(dirname "$0")/.." && pwd)"
+task_sdk="${IOS_SDK:-$task_root/../.deps/sdk71/iPhoneOS7.1.sdk}"
+test -f "$task_sdk/usr/include/stdio.h" || { echo 'Set IOS_SDK to a legally obtained SDK supporting ARMv7.' >&2; exit 1; }
+exec /usr/bin/clang -target armv7-apple-ios6.0 -isysroot "$task_sdk" -fuse-ld=/Library/Developer/CommandLineTools/usr/bin/ld-classic -Wno-unused-command-line-argument "$@"
